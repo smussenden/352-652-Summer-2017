@@ -9,7 +9,7 @@ Additionally, you may find the following reference materials useful:
 * [HTML Dog HTML Tutorial](http://www.htmldog.com/guides/html/beginner/)
 * [W3Schools HTML Tutorial](http://www.w3schools.com/html/)
 
-##HTML structure
+## HTML structure
 
 HTML works through "tags", which are denoted by angle brackets < >.  Here's an example: <p>, which is a paragraph tag, and tells the browser to interpret the text wrapped in it as "paragraph" text.
 
