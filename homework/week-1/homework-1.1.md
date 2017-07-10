@@ -17,7 +17,7 @@ B. Save the resume file as a Word doc (.doc, .docx) or as a text file (.txt).  S
 
 C. Finish [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 1 "HTML Fundamentals" and Section 2 "HTML Content". Submit link to CodeAcademy achievements page as a comment on ELMS in Homework 1.1.
 
-D. Review Cheat Sheet on core concepts from CodeAcademy Section 1 "HTML Fundamentals" and Section 2 "HTML Content".
+D. Review [the guide on core concepts](../../guides/week-1/guide-homework-1.1.md) from CodeAcademy Section 1 "HTML Fundamentals" and Section 2 "HTML Content".
 
 E. Review Class 1.2 In-class assignment.
 
