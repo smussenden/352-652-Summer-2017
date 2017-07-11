@@ -1,17 +1,3 @@
-1. HTML and CSS are kept in separate files in order to keep code maintainable and readable, as well as keep structure separate from styling.
-
-2. The <style> element allows you to write CSS code within an HTML file.
-
-3. A CSS stylesheet can be linked to an HTML file using the <link> element, which requires three attributes:
-
-href - set equal to the path of the CSS file.
-type - set equal to text/css.
-rel - set equal to stylesheet.
-In this lesson, you learned about the two different places in which you can write CSS code, but you didn't write any CSS code at all.
-
-In the next lesson, you'll learn about the basic structure and syntax of CSS so that you can start using CSS on your own.
-
-
 # Guide to Homework-1.2
 
 This guide reviews some core concepts covered in [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 2 "CSS Fundamentals" and Section 4 "Styling with CSS".
@@ -90,7 +76,7 @@ And this is a CSS comment:
 /*This is a CSS comment*/
 ```
 
-###CSS Colors
+### CSS Colors
 
 There are many different ways of changing colors on web pages.  We use different CSS properties and values in different formats.
 
@@ -131,7 +117,7 @@ h1 {
 }
 ```
 
-###CSS Fonts
+### CSS Fonts
 
 We can also change the font used for text, with the font-family property:
 
