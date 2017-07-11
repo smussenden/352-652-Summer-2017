@@ -11,7 +11,7 @@ Additionally, you may find the following reference materials useful:
 
 ## HTML structure
 
-HTML works through "tags", which are denoted by angle brackets < >.  Here's an example: <p>, which is a paragraph tag, and tells the browser to interpret the text wrapped in it as "paragraph" text.
+HTML works through "tags", which are denoted by angle brackets < >.  Here's an example: `<p>`, which is a paragraph tag, and tells the browser to interpret the text wrapped in it as "paragraph" text.
 
 In almost all cases, HTML works by putting an open tag (like `</p>`) at the beginning, and ends with a companion closing tag (like `</p>`). There are exceptions, like image tags (`<img>`) or break tags `<br>` which are "self-closing."  
 
