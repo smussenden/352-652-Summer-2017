@@ -60,7 +60,7 @@ h1, p {
 We can apply the same styling to every element on the page using a wild-card selector, like so:
 
 ```css
-\* {
+ * {
   font-size: 24px;
 }
 ```
