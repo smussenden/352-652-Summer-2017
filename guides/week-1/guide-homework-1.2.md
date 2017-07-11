@@ -79,9 +79,9 @@ p {
 
 Comments help keep your code readable, without breaking it.  The format for comments is different than html. This is an HTML comment.
 
-```html
+
 <!-this is an html comment-->
-```
+
 
 And this is a CSS comment:
 ```css
