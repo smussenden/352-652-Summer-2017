@@ -1,6 +1,6 @@
 # Guide to Homework-1.2
 
-This guide reviews some core concepts covered in [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 2 "CSS Fundamentals" and Section 4 "Styling with CSS".
+This guide reviews some core concepts covered in [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 3 "CSS Fundamentals" and Section 4 "Styling with CSS".
 
 Additionally, you may find the following reference materials useful:
 
