@@ -121,7 +121,7 @@ DIVs are the most commonly used HTML tags, forming the structure of most web pag
 
 All HTML elements are really invisible boxes, in which we can put text and images. And through CSS, we can control the size of the boxes, how close they sit to other boxes on a page, and where the content we place inside them sits.
 
-![courtesy W3.org box model](../../../img/w3-box-model.png)
+![courtesy W3.org box model](../../img/w3-box-model.png)
 
 
 --Width
