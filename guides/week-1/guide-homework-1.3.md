@@ -1,6 +1,6 @@
-# Guide to Homework-1.2
+# Guide to Homework-1.3
 
-This guide reviews some core concepts covered in [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 3 "CSS Fundamentals" and Section 4 "Styling with CSS".
+This guide reviews some core concepts covered in [CodeAcademy Learn HTML & CSS: Part 1](https://www.codecademy.com/learn/learn-html-css), Section 5 "Organizing HTML & CSS" and Section 6 "The CSS Box Model".
 
 Additionally, you may find the following reference materials useful:
 
@@ -255,7 +255,7 @@ But we can override these default behaviors with CSS. For example, it's how we c
 
 * **item one |**
 * **item two |**
-* **item three |**
+* **item three**
 
 If we add this bit of css...
 
