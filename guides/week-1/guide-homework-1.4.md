@@ -193,7 +193,7 @@ The *float* property allows us to push elements to the left or right side of the
 ```
 
 ### Clear
-UPDATE this
+The clear property prevents a floated element from going on the left or the right side (or both) of a specified element.
 
 ### Adding images
 
@@ -203,16 +203,28 @@ We add images with the `<img>` tag, which includes instructions (folder path or 
 
 We can assign an image or classes to an image, and style it in our CSS file.  Common styling for images include height, width, border, margin and positioning.
 
-By default, images are *inline*, but we can make them behave like divs by adjusting their display to *block*, allowing us to center and position. 
+By default, images are *inline*, but we can make them behave like divs by adjusting their display to *block*, allowing us to center and position.
 
-The rest of the stuff, is too complicated for now.
+The rest of the stuff in the CodeAcademy lesson is too in-depth for beginners, in my opinion.
 
 ### Tables
-table
-tr
-td
-th
-rowspan
-colspan
-thead
-tbody
+
+We use tables to hold tabular data.  This is the structure of an example table:
+```html
+<table>
+  <thead>
+    <th>Table Head column 1</th>
+    <th>Table Head column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cell 1, row 1</td>
+      <td>cell 2, row 1</td>
+    </tr>
+    <tr>
+      <td>cell 1, row 2</td>
+      <td>cell 2, row 2</td>
+    </tr>
+  </tbody>
+</table>
+```
