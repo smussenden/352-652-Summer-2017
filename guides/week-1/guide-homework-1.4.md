@@ -210,6 +210,7 @@ The rest of the stuff in the CodeAcademy lesson is too in-depth for beginners, i
 ### Tables
 
 We use tables to hold tabular data.  This is the structure of an example table:
+
 ```html
 <table>
   <thead>
