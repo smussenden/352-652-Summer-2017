@@ -67,48 +67,72 @@ div {
 	position: relative;
 }
 
-/*Step 1: normally, these three boxes are stacked on top of each other. By floating them left.
+/*Step 1: normally, these three boxes are stacked on top of each other. By floating them left. They are 30 percent of screen.  We can put them next to each other by floating them left;*/
 
 #green {
 	background-color: green;
 	width: 30%;
 	height: 200px;
-	/*Turn on step 1
+	/*Turn on step 1*/
 	position: relative;
 	float: left;
-	*/
+
 }
 
 #purple {
 	background-color: purple;
 	width: 30%;
 	height: 200px;
-	/*Turn on step 1
+	/*Turn on step1*/
 	position: relative;
 	float: left;
-	*/
+
 
 }
+
+/*Step 2, if we want to say go below normally floated elements, do this */
 
 #orange {
 	background-color: orange;
 	width: 30%;
 	height: 200px;
-	/*Turn on step 1
+	/*Turn on step1*/
 	position: relative;
 	float: left;
-	*/
+	/* Step 2*/
+	clear:both;
+
+
 }
+
+
 
 #yellow {
 	background-color: yellow;
 	width: 100%;
 	height: 600px;
+	/*Step 3: if I want to push down the box from where it would normally be in the normal flow, I use relative and move it around.
+	position: relative;
+	top: 2em;
+	left: 5%;*//*Step 3*/
+	/*Step 4 and if I want to move it out of the normal flow of the page and remove it from the tyranny of the DOM model, I can position it abvolute.*/
+	/*
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	*/
 }
+
+
 
 #red {
 	background-color: red;
 	width: 30%;
 	height: 200px;
-
+	position: fixed;
+	top: 10px;
+/*step 5 If I want to make an element sticky, I do the following.
+	position: fixed;
+	top: 100px;
+*/
 }
