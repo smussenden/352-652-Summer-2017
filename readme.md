@@ -171,9 +171,9 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 **Homework**: Finish [CodeAcademy Learn Responsive Design](https://www.codecademy.com/learn/learn-responsive-design). Submit CodeAcademy achievements page to ELMS. Watch [Lynda.com Design Aesthetics for Web Design](https://www.lynda.com/Design-Techniques-tutorials/Design-Aesthetics-Web/506078-2.html).
 
 ### WEEK TWO
-2.1 Update resume with responsive features. Homework: Tutorial on Bootstrap web framework.
+2.1 Update resume with responsive features. Homework: Tutorial on Bootstrap web framework, and wireframing. See [Homework 2.1](homework/week-2/homework-2.1.md)
 
-2.2 Review of Bootstrap web framework. In-class workshop for resume site. Homework: work on resume site, outline of exploration of proposed final project.     
+2.2 Review of Bootstrap web framework, wireframing In-class workshop for resume site. Homework: work on resume site, outline of exploration of proposed final project.     
 
 2.3 * Outline of exploration for proposed final project due at start of class. In-class workshop for resume site. Homework: finish resume site.      
 
