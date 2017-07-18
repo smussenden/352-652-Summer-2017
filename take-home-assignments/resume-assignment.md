@@ -39,8 +39,9 @@ You may work ask me and your classmates for assistance in completing the assignm
 
 ### Required Structural and Design Elements
 
-* Complete a site wireframe before starting to build.
+* Complete a site wireframe before starting to build and have it approved by me.
 * A section for education, experience and skills.  You are free to include any other sections you wish.
+* A thin, top-bar navigation menu with "Your Name", "Resume" and "Portfolio" as menu items.  You should modify the default Bootstrap menu that comes with the starter template so that it integrates with your styles.
 * A header with your name, contact information and affiliated sites.
 * A page footer with your name, copyright information.  
 * At least one Google Font family and no more than two total font families.
@@ -57,7 +58,7 @@ You may work ask me and your classmates for assistance in completing the assignm
 * Use class and ID tags that are descriptive.
 * Use as little code as possible to create your design.  Don't repeat yourself when possible. Be efficient.
 * Make at least 10 commits to GitHub during construction.
- 
+
 ### Grading
 
 * Inclusion of required document sections - 10 percent.
