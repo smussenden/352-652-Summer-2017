@@ -1,0 +1,180 @@
+/*THIS IS THE BEGINNING OF THE CSS RESET.  IT'S USED TO WIPE THE SLATE CLEAN, SO WE CAN TELL BROWSERS EXACTLY WHAT WE WANT THEM TO DO. NOTE THAT WE'VE INCLUDED CREDIT TO THE DUDE WHO WROTE THIS CODE AND RELEASED IT FREE. IT'S GENERALLY FINE TO USE OTHER PEOPLE'S CODE, JUST ATTRIBUTE IT TO THEM!!!!*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  border: 1px dashed blue;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*THIS IS THE END OF THE CSS RESET.  IT'S USED TO WIPE THE SLATE CLEAN, SO WE CAN TELL BROWSERS EXACTLY WHAT WE WANT THEM TO DO*/
+
+body {
+	font-family: Times New Roman;
+	font-size: 14px;
+	background-color: lightgrey;
+}
+
+#headcontainer {
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 10px;
+	background-color: #666;
+} /*This is an example of an ID. It starts with a #. There's only one head container on the page, so it's fine to use an ID*/
+
+#name {
+	text-align: center;
+	font-family: helvetica;
+	color: #0000CD;
+	font-size: 36px;
+	padding: 20px 0px 0px 0px;
+	margin-bottom: 10px;
+} /*Look at padding and margin. Note that with padding The first value is for top, second for right, third for bottom, fourth for left. With Margin, I've chosen to just target the top and bottom values separately, but I could do it the same way as with padding, four values going clockwise.*/ 
+
+#contact {
+	font-family: Times New Roman;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background: #fff;
+	width: 400px;
+	margin: 10px auto;
+}
+
+#contact a {
+	font-size: 14px;
+	color: #0000CD;
+	font-weight: bold;
+} /*Notice how I've only targeted links (a tags) within the Div with the ID contact.  This doesn't affect links outside of it.  */
+
+#contact .phone {
+	font-weight: bold;
+}	
+
+.social {
+	font-weight: bold;
+} 
+
+.email {
+	color: #0000CD;
+	font-family: Times New Roman;
+}
+
+#bodycontainer {
+	padding: 20px;
+}
+
+.section {
+	margin: 10px 0px 10px 0px;	
+	background: #fff;
+	padding: 20px;
+}
+
+.sectionheader {
+	font-family: helvetica; 
+	color: #444; 
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.jobtitle {
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.organization {
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+}
+
+.details {
+
+}
+
+.details ul li {
+	font-family: Times New Roman;
+	font-size: 14px;
+	list-style-type: square;
+ 	list-style-position: inside;
+}
+
+
+a {
+	text-decoration: none;
+	color: #0000CD;
+}
+
+table {
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+td {
+	border: 1px solid black;
+	width: 300px;
+	font-family: times new roman;
+	font-size: 14px;
+	padding: 3px;
+}
+
+th {
+	border: 1px solid black;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	padding: 3px;
+}
+

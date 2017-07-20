@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html> 
+
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"> </script>
+	<script src="js/highcharts.js" type="text/javascript"></script>
+	
+
+	
+	<script type="text/javascript">
+	
+	var change = {
+    1: 'Tenth Place',
+    2: 'Ninth Place',
+    3: 'Eighth Place',
+    4: 'Seventh Place',
+    5: 'Sixth Place',
+    6: 'Fifth Place',
+    7: 'Fourth Place',
+    8: 'Third Place',
+    9: 'Runners Up',
+    10: 'Champions',
+};
+	
+	$(function () {
+        $('#container').highcharts({
+            title: {
+                text: 'Germany\'s Finishing Place At Each World Cup',
+                x: -20 //center
+            },
+            subtitle: {
+                text: 'Source: wikipedia.org',
+                x: -20
+            },
+            
+             xAxis: {
+            
+                 title:
+                        {
+                        text: 'World Cup Year'
+                        
+                        },
+            
+                categories: ['1934', '1938', '1954', '1958', '1962', '1966',
+                    '1970', '1974', '1978', '1982', '1986', '1990','1994','1998','2002', '2006', '2010', '2014']
+            },
+            yAxis: {
+             tickInterval: 1,
+              labels: {
+        	formatter: function() {
+            var value = change[this.value];
+            return value !== 'undefined' ? value : this.value;
+       			 }, 
+       			 step: 0
+   			 },
+             
+             
+             
+             
+                title: {
+                    text: 'Finishing Place'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+                
+            },
+            
+            
+    
+             tooltip: {enabled: false
+                  
+               
+            },
+
+            series: [{
+               
+                data: [8, 1, 10, 7, 4, 9, 8, 10, 5, 9, 9, 10, 6, 4, 9, 8, 8, 10]
+            }]
+        });
+    });
+    
+  
+    
+    </script>
+    </head>
+    
+    <body>
+	<div id="container"> </div>
+	  <div id="explainer">Germany has played in every World Cup except in 1930 when they did not enter and 1950 when they were banned after the WWII. They've consistently performed at a high level in the FIFA World cup, earning second-place and third-place finishes four times each and one fourth-place finish. They've placed at least 3rd in the last four World Cups and has come very close to matching Brazil's performance of winning a total of five World Cups.</div>
+		<a href= "http://en.wikipedia.org/wiki/Germany_at_the_FIFA_World_Cup">Wikipedia</a>
+		</div>
+		
+	</body>
+	</html>
+		

@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Oswald', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#mapcontainer {
+	border: 1px solid black;
+	padding: 10px;
+	width: 610px;
+}
+
+#headline {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+#map-canvas { 
+ 	width:600px; 
+ 	height:400px; 
+ 	border: 1px solid black;
+}
+
+#legend {
+	margin-top: 10px;
+	width: 600px;
+}
+
+#legendtitle {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#legendboxes {
+	width: 600px;
+	padding: 5px;
+}
+
+.box {
+ 	border: 1px solid black;
+ 	width: 100px;
+ 	height: 20px;
+ 	display: inline-block;
+ 	font-size: 12px;
+ 	padding-top: 10px;
+ 	text-align: center;
+}
+
+#first {
+	background-color: #00ffff;
+}
+
+#second {
+	background-color: #00ff00;
+
+}
+
+#third {
+	background-color: #ffff00;
+
+}
+
+#fourth {
+	background-color: #ff9900;
+
+}
+
+#fifth {
+	background-color: #ff0000;
+
+}
+#explainer {
+	font-size: 14px;
+	padding: 5px;
+	width: 600px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#credits {
+	font-size: 12px;
+	font-style: italic;
+	padding: 5px;
+	font-family: 'Droid Sans', sans-serif;
+}
+    
+@media screen and (max-width:650px) {
+	#mapcontainer {
+	width: 400px;
+	}
+	
+	#map-canvas { 
+ 	width:400px; 
+ 	height:300px; 
+	}
+	
+	#headline {
+	font-size: 24px;
+	margin-bottom: 10px;
+	}
+
+	#legend {
+	width: 400px;
+	}
+	
+	#legendtitle {
+	font-size: 14px;
+	
+	}
+	
+	#legendboxes {
+	width: 400px;
+	padding: 5px;
+	}
+	
+	.box {
+ 	width: 70px;
+ 	font-size: 11px;
+	}
+	
+	#explainer {
+	font-size: 12px;
+	padding: 5px;
+	width: 400px;
+	
+}
+	#credits {
+	font-size: 10px;
+	font-style: italic;
+}
+
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html> 
+
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"> </script>
+	<script src="js/highcharts.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	
+	$(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: "Germany's Number of World Cups Compared To Other Countries"
+            },
+            subtitle: {
+                text: 'Source: Wikipedia.org'
+            },
+            xAxis: {
+                categories: ['Brazil', 'Germany', 'Italy', 'Argentina', 'Uruguay', 'France', 'England', 'Spain'],
+                title: {
+                    text: null
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Number of Wins',
+                    align: 'high'
+                },
+                labels: {
+                    overflow: 'justify'
+                }
+            },
+            tooltip: {
+                enabled: false
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -40,
+                y: 100,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'),
+                shadow: true
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                name: 'Wins',
+                data: [5, 4, 4, 2, 2, 1, 1, 1]
+            }]
+        });
+    });
+    
+
+	</script>
+    </head>
+    
+    <body>
+	<div id="container"> </div>
+	  <div id="explainer">Winning the 2014 games has placed Germany in the number two spot for most World Cups won by any one country. They have a total of four just one less than Brazil who has five World Cups.</div>
+		<a href= "http://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals">Wikipedia</a>
+		</div>
+		
+	</body>
+	</html>
+		

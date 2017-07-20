@@ -173,36 +173,37 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 ### WEEK TWO
 2.1 Update resume with responsive features. Homework: Tutorial on Bootstrap web framework, and wireframing. See [Homework 2.1](homework/week-2/homework-2.1.md)
 
-2.2 Review of Bootstrap web framework, wireframing In-class workshop for resume site. Homework: work on resume site, outline of exploration of proposed final project.     
+2.2 Review of Bootstrap web framework, wireframing. In-class workshop for resume site. Homework: work on resume site, outline of exploration of proposed final project.     
 
-2.3 * Outline of exploration for proposed final project due at start of class. In-class workshop for resume site. Homework: finish resume site.      
+2.3 Due at start of class: Outline of exploration for proposed final project due at start of class. In-class workshop for resume site. Homework: work on resume site.      
 
-2.4 Resume site due at start of class. Using interactive timelines to tell stories. In Class Assignment: build a timeline with Timeline.js. Homework: Readings and Exercises on working with data, newsroom statistics, data visualization basics.
+2.4 In-class workshop for resume site. Feedback on exploration of proposed final project. Homework: finish resume site.  
 
-2.5 Begin data visualization discussion.  Review of news sites using maps to tell stories. In Class Assignment: Build a Google Map with multiple data points. Homework: Incorporate Google Map onto sample project web page.
-
+2.5 Using open-source tools to tell visual stories.  Lecture/Discussion: use of open-source tools, news timelines. In-Class Assignment: building a timeline with timeline.js. Homework: Build framework of a Bootstrap page to host timeline and subsequent visualizations. Homework: Readings and exercises on working with data, newsroom statistics, data visualization.     
 
 ### WEEK THREE
-3.1 Advanced Mapping. Using Google Fusion Tables or cartoDB to create choropleth maps. In Class Assignment: Build a map with shapefiles. Homework: Incorporate Second Google Map onto sample project page.
+3.1 Data visualization, cartography, using open-source tools to tell visual stories.  Lecture/Discussion: Overview of map types in news, effective maps. In-Class Assignment: Build a locator map with Google My Maps.  Homework: Incorporate Google Map onto Bootstrap page.  
 
-3.2 Finding stories in data. Review of data driven stories by news organizations. In Class Assignment: Interviewing a data set. Homework: Adding findings to final project page, just in text form.  
+3.2 Data visualization, cartography, using open-source tools to tell visual stories.  In Class Assignment: Using Google Fusion Tables, shapefiles to create a choropleth map. Homework: Incorporate Google Map onto Bootstrap page.   
 
-3.3 Data Visualization Part 1. Charting. In Class Assignment: using highcharts.js to design a basic chart. Homework: Add chart and writeup to final project page.  
+3.3 Finding stories in data. Lecture/Discussion: A method for finding stories in data. In Class Assignment: Interviewing a data set. Homework: Incorporate class assignment findings onto Bootstrap page.  
 
-3.4 Data Visualization Part 2. Advanced Charting. In Class Assignment. Use highcharts.js to design another chart. Homework: Add chart and writeup to final project page.  
+3.3 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Lecture/Discussion: Overview of available JavaScript Libraries for news. Introduction to JavaScript via charting library. In Class Assignment: Using a charting library to design a basic chart. Homework: Incorporate chart into Add chart and writeup to final project page.
 
-3.5 In-Class Portion of Mid-Term. Review of Take Home Portion of Mid-Term. In-class exercise: if time, work on take home mid-term. Homework: take-home mid-term.  
+3.4 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Lecture/Discussion: Selecting an appropriate chart type.  In Class Assignment: Using a charting library to design another chart. Homework: Add chart and writeup to final project page. Study for in-class portion of mid-term.  
+
+3.5 In-Class Portion of Mid-Term. Review of Take Home Portion of Mid-Term. In-class exercise: if time, work on take home mid-term. Homework: Work on take-home portion of mid-term.  
 
 ### WEEK FOUR
 4.1 In-Class workshop - work on take-home portion of mid-term. Homework: work on take-home portion of mid-term.
 
-4.2 In-Class workshop - work on take-home portion of mid-term. At End of class: take-home mid-term due.    
+4.2 In-Class workshop - work on take-home portion of mid-term. At end of class: take-home mid-term due. Homework: jQuery CodeAcademy tutorial.    
 
-4.3 Basic jQuery. In-Class Assignment: using jQuery to turn on and off an html element with a button click. Homework: jQuery tutorial.
+4.3 Introduction to programming for interaction design. In-Class Assignment: using jQuery to turn on and off an html element with a button click. Homework: finish jQuery CodeAcademy tutorial.
 
-4.4 jQuery II. In-Class Assignment: using jQuery to add a Scrollspy to a page. Homework: Develop outline of proposed final project, including questions to be asked and answered, what data sets will be used to answer the questions, proposed visualization types.
+4.4 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework:
 
-4.5 jQuery III. In-Class Assignment: using jQuery to add further develop site.  Homework: Work on developing detailed list of interactives to be built for final project.
+4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to add further develop site.  Homework: Work on developing detailed list of interactives to be built for final project.
 
 ### WEEK FIVE
 5.1 In-class assignment: Meet with instructor one-on-one to discuss project interactives to be built. Homework: Finalize list of interactives to be built.  

@@ -1,0 +1,83 @@
+body {
+  padding-top: 50px;
+}
+
+.topsection {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.topsection h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	/*max-width: 600px;
+	margin: 0px auto 20px auto;*/
+}
+
+.byline {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #777;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.graphiccontainer {
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.textblock {
+
+	margin-right: 20px;
+	padding: 0px 20px 0px 20px;
+}
+
+.graphictitle {
+
+}
+
+.graphictitle h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.graphictext {
+	margin-top: 15px;
+}
+
+.graphicblock {
+	padding: 0px 20px 0px 20px;
+	border-left: 2px solid #777777;
+
+}
+
+.stadiumsmap {
+	max-width: 600px;
+}
+
+@media (max-width: 768px) {
+	.textblock {
+		margin-right: 0px;
+		padding: 20px;
+	}
+
+	.graphicblock {
+		border-left: 0px;
+		border-top: 0px;
+		border-bottom: 2px solid #777777;
+		padding: 20px;
+	}
+
+	.topsection {
+		padding: 20px;
+	}
+
+	.topsection h1 {
+	font-size: 40px;
+
+}
+
+}

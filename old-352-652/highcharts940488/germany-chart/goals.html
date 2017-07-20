@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Germany World Cup Goals</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/highcharts.js"></script>
+
+		
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'column'
+            },
+            
+            colors: ['#B4111C'],
+            
+            credits: {
+            text: 'Capital News Service chart by Sean Mussenden',
+            },
+            
+            legend: {
+            enabled: false
+        	},
+            
+            title: {
+                text: 'Germany\'s World Cup Goals by Game'
+            },
+            subtitle: {
+                text: 'Source: FIFA.com'
+            },
+            xAxis: {
+                categories: [
+                    'Portugal',
+                    'Ghana',
+                    'U.S.',
+                    'Algeria',
+                    'France',
+                    'Brazil',
+                    'Argentina'
+                ],
+                title: {
+                enabled: true,
+                text: 'Opponent'
+            },
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Goals'
+                }
+               
+                
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">Opponent: {point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y}</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0,
+                }
+            },
+            series: [{
+                name: 'Goals Scored by Germany',
+                data: [4, 2, 1, 2, 1, 7, 1]
+    
+            }]
+        });
+    });
+    
+
+		</script>
+	</head>
+	<body>
+<div id="container"></div>
+
+	</body>
+</html>

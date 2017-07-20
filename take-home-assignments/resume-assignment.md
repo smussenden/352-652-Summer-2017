@@ -2,7 +2,7 @@ resume.md
 
 # Personal Resume Assignment
 
-*This assignment is due Thursday, July 20 at the start of class.*
+*This assignment is due Friday, July 21 at the start of class.*
 
 You will draw on all that you have learned about building websites with HTML and CSS -- and exercise your creative muscles -- to rebuild your resume from scratch using a design of your own creation.
 
