@@ -1,5 +1,7 @@
 # Homework 2.5
 
+**If you haven't finished in-class assignment 2.5, finish that first, then start on this homework.**
+
 Your weekend homework is designed as a very basic introduction to data journalism and newsroom statistics, and to introduce you to -- or provide a refresher on -- using Excel, perhaps the most widely used tool for data analysis in journalism.  This lesson will help you perform simple calculations and "interview" data sets to find stories.  
 
 Plus, you will use need to use Excel for several upcoming in-class assignments, the take-home portion of your mid-term and your final project.  
@@ -27,8 +29,9 @@ Play close attention to instructions on how to open and create worksheets, selec
 * [Median](http://www.excel-easy.com/functions/statistical-functions.html#median)
 * [Average](http://www.excel-easy.com/functions/statistical-functions.html#average)
 * [Percent Change](http://www.excel-easy.com/examples/percent-change.html)
+* [Arithmetic](https://support.office.com/en-us/article/Use-Excel-as-your-calculator-a1abc057-ed11-443a-a635-68216555ad0a)
 
-## Practice analyzing a data set with Excel, then upload to ELMS. 
+## Practice analyzing a data set with Excel, then upload to ELMS.
 
 Download this [Excel file of World Cup 2014 data](excel-training-wc-2014.xlsx).  
 
