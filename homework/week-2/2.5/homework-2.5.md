@@ -8,11 +8,11 @@ Plus, you will use need to use Excel for several upcoming in-class assignments, 
 
 ## Data Journalism Background
 Read general background on the nature of data journalism by reading the introduction of the [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/introduction.html), specifically the first five sections
-* [What is Data Journalism] (http://datajournalismhandbook.org/1.0/en/introduction_0.html)
-* [Why Journalists Should Use Data] (http://datajournalismhandbook.org/1.0/en/introduction_1.html)
-* [Why is Data Journalism Important] (http://datajournalismhandbook.org/1.0/en/introduction_2.html)
-* [Some Favorite Examples] (http://datajournalismhandbook.org/1.0/en/introduction_3.html)
-* [Data Journalism in Perspective] (http://datajournalismhandbook.org/1.0/en/introduction_4.html)
+* [What is Data Journalism](http://datajournalismhandbook.org/1.0/en/introduction_0.html)
+* [Why Journalists Should Use Data](http://datajournalismhandbook.org/1.0/en/introduction_1.html)
+* [Why is Data Journalism Important](http://datajournalismhandbook.org/1.0/en/introduction_2.html)
+* [Some Favorite Examples](http://datajournalismhandbook.org/1.0/en/introduction_3.html)
+* [Data Journalism in Perspective](http://datajournalismhandbook.org/1.0/en/introduction_4.html)
 
 ## Excel Tutorial
 
