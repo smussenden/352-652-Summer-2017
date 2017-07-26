@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css" id="theme">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Interviewing Data</h1>
+				</section>
+
+				<section>
+					<h3>Eight Steps</h3>
+					<p class="fragment fade-up">1. Think of a question</p>
+					<p class="fragment fade-up">2. Find data to interview</p>
+					<p class="fragment fade-up">3. Skeptically investigate the data's accuracy</p>
+					<p class="fragment fade-up">4. Translate your questions into langugage the data understands</p>
+					<!--Maps have been used for hundreds of years by journalists-->
+				</section>
+				<section>
+					<h3>Eight Steps</h3>
+					<p class="fragment fade-up">5. Put the answers in context</p>
+					<p class="fragment fade-up">6. Repeat 1-5 as needed</p>
+					<p class="fragment fade-up">7. Translate your findings into language people understand</p>
+					<p class="fragment fade-up">8. Before publication, have someone else reproduce your work</p>
+					<!--Maps have been used for hundreds of years by journalists-->
+				</section>
+				<section>
+					<h3>1. Think of interview questions</h3>
+					<p class="fragment fade-up">How did Germany win the World Cup?</p>
+					<p class="fragment fade-up" style="color: #A00B59;">Get specific</p>
+					<p class="fragment fade-up">Were they better on offense than other teams?</p>
+					<p class="fragment fade-up" style="color: #A00B59;">Get more specific</p>
+					<p class="fragment fade-up">Did they have a higher percentage of shots on target than other teams?  Were they better at passing than other teams?</p>
+
+					<!--Maps have been used for hundreds of years by journalists-->
+				</section>
+				<section>
+					<h2>2. Find data to interview</h3>
+					<p class="fragment fade-up">Easy: Download data. Examples: <a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">Census.gov American FactFinder</a>, <a href="http://data.gov">Data.gov</a>,  <a href="https://data.baltimorecity.gov/">Baltimore City Open Data</a></p>
+					<p class="fragment fade-up">Harder: Scrape. Tools: <a href="https://chrome.google.com/webstore/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop?hl=en">Table Capture</a>, <a href="https://www.import.io/try-it/">Import.io</a>, <a href="http://tabula.technology/">Tabula</a></p>
+					<p class="fragment fade-up">Even harder: FOIA/PIA. Example:  <a href="http://cnsmaryland.org/2017/05/17/pedestrian-casualties-mount-in-maryland-town-as-officials-defer-action/">Langley Park pedestrian deaths</a></p>
+					<p class="fragment fade-up">DIY. Examples: <a href="http://cnsmaryland.org/interactives/other-redskins">Other Redskins</a>, <a href="https://www.washingtonpost.com/graphics/national/police-shootings-2016/">Fatal Force</a>, <a href="https://v1.thebureauinvestigates.com/namingthedead/naming-the-dead-the-methodology/?lang=en">Drone Strikes</a></p>
+				</section>
+				<section>
+					<h3>3. Skeptically investigate the data's accuracy</h3>
+					<p class="fragment fade-up">How do you know that?</p>
+					<p class="fragment fade-up">Who collected it? <a href="http://www.fairus.org/DocServer/research-pub/USCostStudy_2013upd.pdf">Do they have an agenda?</a></p>
+					<p class="fragment fade-up">How was it collected? <a href="https://www.besttickets.com/blog/nfl-player-census-2014/">Does the methodology seem reliable?</a></p>
+					<p class="fragment fade-up">Is this the <a href="http://datacenter.kidscount.org/data/tables/6909-decennial-population?loc=22&loct=2#detailed/2/any/false/133,11/any/14016,14017">original source?</a></p>
+				</section>
+				<section>
+					<h3>3. Skeptically investigate the data's accuracy</h3>
+					<p class="fragment fade-up">Are there alternative sources of the same information? Does this dataset match those?</p>
+					<p class="fragment fade-up">What does the data actually tell you? <a href="http://ire.org/media/uploads/files/datalibrary/samplefiles/FBI%20Uniform%20Crime%20Reports/04634-0001-Codebook.pdf">Don't assume, read the documentation</a>.
+					<p class="fragment fade-up">Are there missing values? Are there values that seem improbable?  Use formulas to look for problems.</p>
+				</section>
+				<section>
+					<h3>4. Translate your questions into langugage the data understands</h3>
+					<p class="fragment fade-up">Did Germany have a higher percentage of shots on target on other teams?</p>
+					<p class="fragment fade-up">"Attempts on Target (Column E)"/"Shots(Column D)"</p>
+					<p class="fragment fade-up">In first row of Column H, write formula</p>
+					<p class="fragment fade-up">=E2/D2</p>
+					<p class="fragment fade-up">Copy it into subsequent rows</p>
+					<p class="fragment fade-up">Sort Column H</p>
+				</section>
+				<section>
+					<h3>5. Put the answers in context</h3>
+					<p class="fragment fade-up">Calculate minimum, maximum, median, average and rank.</p>
+					<p class="fragment fade-up">What is newsworthy? More, less, change, relationships, surprising. </p>
+				</section>
+				<section>
+					<h3>5. Put the answers in context</h3>
+					<p class="fragment fade-up">72.45 percent of Germany's shot attempts were on target.</p>
+					<p class="fragment fade-up">Is that good? Bad?</p>
+					<p class="fragment fade-up">Median: 59.73, Max: 72.45, Min: 42.5, Germany Rank: 1.</p>
+				</section>
+				<section>
+					<h3>5. Put the answers in context</h3>
+					<p class="fragment fade-up">Germany: 98 shots during tournament. Iran: 22 shots during tournament.</p>
+					<p class="fragment fade-up">Is it misleading to say Germany had almost 5 times as many shots as Iran?</p>
+					<p class="fragment fade-up">Yes. Germany played 7 games, Iran 3.</p>
+					<p class="fragment fade-up">Meaningful: Germany averaged 14 shots per game, Iran 7.3</p>
+				</section>
+				<section>
+					<h3>6. Repeat 1-5 as needed</h3>
+					<p class="fragment fade-up">This process is not always linear.</p>
+					<p class="fragment fade-up">Answers bring up new questions.</p>
+					<p class="fragment fade-up">Answers reveal unseen flaws in the data set.</p>
+				</section>
+				<section>
+					<h3>7. Repeat 1-5 as needed</h3>
+					<p class="fragment fade-up">This process is not always linear.</p>
+					<p class="fragment fade-up">Answers bring up new questions.</p>
+					<p class="fragment fade-up">Answers reveal unseen flaws in the data set.</p>
+				</section>
+				<section>
+					<h3>7. Translate and share findings</h3>
+					<p class="fragment fade-up">Write your finding in plain English.  Include necessary context.</p>
+					<p class="fragment fade-up">“Germany put itself in a position to score more often than any other team in the World Cup.  Nearly three out of four -- 72.45 percent -- of its shots were on goal, a higher rate than any other team in the tournament.”</p>
+					<p class="fragment fade-up">Only after you've reached this point do you determine how to visualize it.</p>
+				</section>
+				<section>
+					<h3>8. Before publication, have someone else check your work.</h3>
+					<p class="fragment fade-up">Give a colleague your data, findings and steps you took to produce those findings.</p>
+					<p class="fragment fade-up">Ask them to repeat your work, looking for errors in logic. </p>
+
+				</section>
+
+				<!-- Example of nested vertical slides -->
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
