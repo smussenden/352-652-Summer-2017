@@ -1,0 +1,9 @@
+/*custom styles*/
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.emphasis {
+  font-style: italic !important;
+}

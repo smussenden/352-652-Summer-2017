@@ -14,6 +14,8 @@ Read general background on the nature of data journalism by reading the introduc
 * [Some Favorite Examples](http://datajournalismhandbook.org/1.0/en/introduction_3.html)
 * [Data Journalism in Perspective](http://datajournalismhandbook.org/1.0/en/introduction_4.html)
 
+Also read ["Drawing Conclusions from Data" by Jonathan Stray](https://source.opennews.org/articles/statistically-sound-data-journalism/)
+
 ## Excel Tutorial
 
 Watch [Excel for Mac Essential Training](http://www.lynda.com/Excel-2011-for-mac-tutorials/essential-training/71210-2.html), a Lynda.com course that is FREE if you log in [through the university system](http://lyndatraining.umd.edu). You should watch sections 1-4 (Getting Started with Excel; Managing Workbooks; Managing Worksheets, Cells and Cell Data, Summarizing Data Using Formulas and Functions).
