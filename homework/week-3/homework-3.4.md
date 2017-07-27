@@ -4,7 +4,7 @@ Building off of the Highcharts tutorial in class 3.4, I want you to build a high
 
 ## Getting started
 
-Copy the `.graphiccontainer` with an ID of four and paste it below, changing the ID to 4. Put a div with an ID of "passeschart" inside of the `.graphiccontent` div.  Then, follow the instructions in the step-by-step tutorial from in-class assignment 3.4 to get the population highchart to load in the "passeschart" div.
+Copy the `.graphiccontainer` with an ID of four and paste it below, changing the ID to five. Put a div with an ID of "passeschart" inside of the `.graphiccontent` div.  Then, follow the instructions in the step-by-step tutorial from in-class assignment 3.4 to get the population highchart to load in the "passeschart" div.
 
 Remember:
 * Build the car frame (you've already done this, it's the HTML structure of the page)
