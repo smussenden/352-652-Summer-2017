@@ -26,6 +26,17 @@ It doesn't make a lot of sense to have a population chart on this page.  So you'
 * Change the chart title to Average Number of Passes Per Game by World Cup Quarterfinalists.
 * Change the subtitle to Source: FIFA.com
 
+## Title and text
+
+Use this title and text
+
+```
+A Passing Machine
+
+Germany moved the ball around the field at a rapid clip throughout the tournament, passing the ball an average of 726 times per game -- well above the median of 513 passes for all 32 teams.
+```
+
+
 ## Submission
 
 Commit the changes to your GitHub repo, and post the link to ELMS.
