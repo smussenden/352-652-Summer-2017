@@ -36,7 +36,6 @@ A Passing Machine
 Germany moved the ball around the field at a rapid clip throughout the tournament, passing the ball an average of 726 times per game -- well above the median of 513 passes for all 32 teams.
 ```
 
-
 ## Submission
 
 Commit the changes to your GitHub repo, and post the link to ELMS.
