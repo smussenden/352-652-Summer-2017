@@ -188,14 +188,14 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 
 3.3 Finding stories in data. Lecture/Discussion: A method for finding stories in data. In Class Assignment: Interviewing a data set. Homework: Incorporate class assignment findings onto Bootstrap page.  
 
-3.3 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Lecture/Discussion: Overview of available JavaScript Libraries for news. Introduction to JavaScript via charting library. In Class Assignment: Using a charting library to design a basic chart. Homework: Incorporate chart into Add chart and writeup to final project page.
+3.4 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Introduction to JavaScript via charting library. In Class Assignment: Using a charting library to design a basic chart. Homework: Incorporate chart into Add chart and writeup to final project page.
 
-3.4 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Lecture/Discussion: Selecting an appropriate chart type.  In Class Assignment: Using a charting library to design another chart. Homework: Add chart and writeup to final project page. Study for in-class portion of mid-term.  
+3.5 Data visualization, charts, using open-source tools tell visual stories, introduction to programming. Lecture/Discussion: Selecting an appropriate chart type.  In Class Assignment: Using a charting library to design another chart. Review of Take Home Portion of Mid-Term. Homework: Study for in-class portion of mid-term.  
 
-3.5 In-Class Portion of Mid-Term. Review of Take Home Portion of Mid-Term. In-class exercise: if time, work on take home mid-term. Homework: Work on take-home portion of mid-term.  
 
 ### WEEK FOUR
-4.1 In-Class workshop - work on take-home portion of mid-term. Homework: work on take-home portion of mid-term.
+
+4.1 In-Class Portion of Mid-Term. Workshop: Take-home mid-term. Homework: Work on take-home portion of mid-term.  
 
 4.2 In-Class workshop - work on take-home portion of mid-term. At end of class: take-home mid-term due. Homework: jQuery CodeAcademy tutorial.    
 
