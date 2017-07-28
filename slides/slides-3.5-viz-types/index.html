@@ -43,164 +43,136 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Chart Types</h1>
+					<h1>Effective Visualizations & Choosing a Chart Type</h1>
 				</section>
 
 				<section>
-					<h3>Different kinds of charts are good at telling different kinds of stories</h3>
+					<h2>Different kinds of charts are good at telling different kinds of stories</h3>
+				</section>
+				<section>
+					<h3>Figure out the editorial point you want to make.</h3>
+					<p class="fragment fade-up">Comparison: Clinton got more campaign contributions than Trump</p>
+					<p class="fragment fade-up">Change: The number of jobs in the manufacturing sector has grown over the last decade.</p>
+					<p class="fragment fade-up">Composition: Half of the country thinks we should have free healthcare.</p>
+					<p class="fragment fade-up">Relationship: There is a connection between education and poverty.</p>
+					<p class="fragment fade-up">There are other types, too.</p>
+				</section>
+				<section>
+					<h3>Change over time</h3>
+					<p>Line</p>
+					<img src="img/change/1.png" width="50%"><br>
+					<small>Source: Washington Post</small>
 				</section>
 				<section>
 					<h3>Change over time</h3>
 					<p>Column</p>
-					<p>Line</p>
+					<img src="img/change/2.png" width="50%"><br>
+					<small>Source: 538</small>
 				</section>
 				<section>
 					<h3>Comparing categories</h3>
 					<p>Bar</p>
-					<p>Column</p>
+					<img src="img/category_comparison/1.png" width="50%"><br>
+					<small>Source: Bloomberg</small>
 				</section>
 				<section>
-					<h3>Distribution</h3>
-					<p>Histogram (one variable)</p>
-					<p>Scatterplot (two variables)</p>
+					<h3>Comparing categories</h3>
+					<p>Bar (Negative/Positive)</p>
+					<img src="img/category_comparison/2.png" width="50%"><br>
+					<small>Source: New York Times</small>
 				</section>
 				<section>
 					<h3>Composition</h3>
 					<p>Stacked bar</p>
-					<p>Treemap</p>
-					<p>Pie chart</p>
-				</section>
-				<section>
-					<h3>Relationship</h3>
-					<p>Scatterplot (two variables)</p>
-					<p>Bubble chart (three variables)</p>
-				</section>
-				<section>
-					Heat maps
-					Range chart (Gantt)
-					FLow chart
-					Network diagrams
-				</section>
-				<section>
-					<h3>...but they have become more <span class="emphasis">interesting</span> </h3>
-					<a href="https://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html#5,38.720,-96.601" target="_blank"><img src="img/nyt-baseball.png" width="50%"></a><br>
-					<small>Source: NYT Upshot, 1862.</small>
-					<!--Maps have been used for hundreds of years by journalists-->
-				</section>
-				<section>
-					<h2>What are maps good for?</h3>
-					<p class="fragment fade-up">Spatial orientation</p>
-					<p class="fragment fade-up">Revealing geographic differences</p>
-					<p class="fragment fade-up">Revealing geographic changes</p>
-				</section>
-				<section>
-					<h3>Spatial orientation - Location</h3>
-					<img src="img/gaza-strip.png" width="50%"><br>
-					<small>Source: Washington Post</small>
-				</section>
-				<section>
-					<h3>Spatial orientation - Location</h3>
-					<a href="https://www.nytimes.com/interactive/2017/05/14/upshot/if-americans-can-find-north-korea-on-a-map-theyre-more-likely-to-prefer-diplomacy.html?_r=0" target="_blank"><img src="img/north-korea.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Spatial orientation - Size</h3>
-					<a href="https://www.nytimes.com/interactive/2017/06/09/climate/100000005155288.app.html?_r=0&action=Click&contentCollection=BreakingNews&contentID=65558865&pgtype=Homepage"><img src="img/ice-delaware.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Spatial orientation - Size & Location </h3>
-					<img src="img/trump.png" width="50%"><br>
-					<small>Source: Washington Post</small>
-				</section>
-				<section>
-					<h3>Spatial orientation - Distance & Personalization</h3>
-					<a href="https://www.nytimes.com/interactive/2016/08/18/sports/olympics/olympic-races-near-you.html" target="_blank"><img src="img/olympics.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic differences</h3>
-					<a href="https://www.nytimes.com/elections/results/president" target="_blank"><img src="img/trump-clinton.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic differences</h3>
-					<a href="https://www.nytimes.com/interactive/2016/11/16/us/politics/the-two-americas-of-2016.html" target="_blank"><img src="img/trump-nation.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic differences</h3>
-					<a href="https://www.nytimes.com/interactive/2016/11/16/us/politics/the-two-americas-of-2016.html" target="_blank"><img src="img/clinton-nation.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic differences</h3>
-					<a href="https://www.nytimes.com/interactive/2016/12/26/upshot/duck-dynasty-vs-modern-family-television-maps.html" target="_blank"><img src="img/love-hip-hop.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic differences</h3>
-					<a href="https://www.nytimes.com/interactive/2016/01/07/us/drug-overdose-deaths-in-the-us.html" target="_blank"><img src="img/heroin.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Revealing geographic changes</h3>
-					<a href="https://www.washingtonpost.com/news/energy-environment/wp/2017/07/12/one-of-the-biggest-icebergs-in-recorded-history-just-broke-loose-from-antarctica/?utm_term=.ec9eb36231a5" target="_blank"><img src="img/ice-cap.gif" width="50%"></a><br>
-					<small>Source: Washington Post</small>
-				</section>
-				<section>
-					<h3>Revealing geographic changes</h3>
-					<a href="http://cnsmaryland.org/2015/02/12/maryland-island-once-diminished-reconstructed-with-dredged-material/" target="_blank"><img src="img/poplartimelapse.gif" width="50%"></a><br>
-					<small>Source: CNSMaryland.org</small>
-				</section>
-				<section>
-					<h3>Revealing geographic changes</h3>
-					<a href="http://www.latimes.com/world/la-jp-eq-beforeafter-htmlstory.html" target="_blank"><img src="img/tsunami.png" width="50%"></a><br>
-					<small>Source: LA Times</small>
-				</section>
-				<section>
-					<h2>Building effective maps</h3>
-				</section>
-				<section>
-					<h3>Building effective maps</h3>
-					<p class="fragment fade-up">Guide user to a clear editorial point</p>
-					<p class="fragment fade-up">Simple, but not dumb</p>
-					<p class="fragment fade-up">Use text to provide context</p>
-					<p class="fragment fade-up">Don't mislead with geography</p>
-				</section>
-				<section>
-					<h2>Misleading with Maps</h2>
-				</section>
-				<section>
-					<h3>Misleading with Maps - Size</h3>
-					<a href="https://www.nytimes.com/elections/results/president" target="_blank"><img src="img/trump-clinton.png" width="50%"></a><br>
-					<small>Source: New York Times</small>
-				</section>
-				<section>
-					<h3>Misleading with Maps - Size</h3>
-					<a href="https://projects.fivethirtyeight.com/2016-election-forecast/" target="_blank"><img src="img/538.png" width="50%"></a><br>
+					<img src="img/composition/1.png" width="50%"><br>
 					<small>Source: 538</small>
 				</section>
 				<section>
-					<h3>Misleading with Maps - Population</h3>
-					<a href="https://xkcd.com/1138/" target="_blank"><img src="img/xkcd.png" width="50%"></a><br>
-					<small>Source: XKCD</small>
+					<h3>Composition</h3>
+					<p>Pie chart</p>
+					<p class="fragment fade-up">Actually, don't make pie charts.</p>
 				</section>
 				<section>
-					<h2>Mapmaking Tools</h2>
+					<h3>Relationship</h3>
+					<p>Scatterplot</p>
+					<img src="img/relationship/2.png" width="50%"><br>
+					<small>Source: 538</small>
 				</section>
 				<section>
-					<h3>Easy Mapmaking Tools</h3>
-					<p class="fragment fade-up"><a href="https://www.google.com/maps/d/u/0/Google" target="_blank">Goole My Maps</a></p>
-					<p class="fragment fade-up"><a href="https://sites.google.com/site/fusiontablestalks/stories" target="_blank">Goole Fusion Tables</a></p>
-					<p class="fragment fade-up"><a href="https://carto.com/" target="_blank">Carto</a></p>
-					<p class="fragment fade-up"><a href="https://www.mapbox.com/mapbox-studio/" target="_blank">Mapbox</a></p>
+					<h3>Relationship</h3>
+					<p>Scatterplot with line of best fit</p>
+					<img src="img/relationship/1.png" width="50%"><br>
+					<small>Source: 538</small>
 				</section>
-				<!-- Example of nested vertical slides -->
-
-
-			</div>
-
+				<section>
+					<h3>Relationship</h3>
+					<p>Network diagram</p>
+					<img src="img/network/1.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h3>Relationship</h3>
+					<p>Network diagram</p>
+					<img src="img/network/2.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h3>Distribution</h3>
+					<p>Histogram (one variable)</p>
+					<img src="img/distribution/1.png" width="50%"><br>
+					<small>Source: New York Times</small>
+				</section>
+				<section>
+					<h3>Distribution</h3>
+					<p>Scatterplot (two variables)</p>
+					<img src="img/distribution-2-variables/3.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h3>Distribution</h3>
+					<p>Heatmap</p>
+					<img src="img/distribution-2-variables/2.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h2>Multi-purpose chart types</h3>
+				</section>
+				<section>
+					<h3>Composition+Change</h3>
+					<p>Treemap</p>
+					<img src="img/change+composition/2.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h3>Composition+Change</h3>
+					<p>Stacked bar</p>
+					<img src="img/change+composition/1.png" width="50%"><br>
+					<small>Source: 538</small>
+				</section>
+				<section>
+					<h3>Change+Comparison</h3>
+					<p>Line</p>
+					<img src="img/change+comparison/2.png" width="50%"><br>
+					<small>Source: New York Times</small>
+				</section>
+				<section>
+					<h3>Change+Comparison</h3>
+					<p>Small multiple, slope</p>
+					<img src="img/change+comparison/3.png" width="50%"><br>
+					<small>Source: New York Times</small>
+				</section>
+				<section>
+					<h2>Tips</h2>
+				</section>
+				<section>
+					<h3>Make a single point</h2>
+				</section>
+				<section>
+					<h3>In most cases, a chart type your audience already knows is the best choice</h3>
+				</section>
+				<section>
+					<h3>Don't lie with scale</h3>
+				</section>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
