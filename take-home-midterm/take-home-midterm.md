@@ -73,7 +73,7 @@ An interactive map, with the following attributes:
 * Shades all other countries not on the list a light gray.
 * A pop-up window for each country, which displays the following information:
   * Country name
-  * 2016 Spending on movies per person: $ figure billion
+  * 2016 Spending on movies per 1,000 people: $ figure
   * 2016 Total Spending on movies: $ figure billion
   * 2016 Population: figure million.
 * Includes a legend placed over the map, built using HTML and CSS, similar to the one we designed in class.
@@ -114,7 +114,7 @@ Uses X and Y axis titles.
 An interactive chart, with the following attributes:
 
 * Uses highcharts.
-* Compares the adjusted gross income of each of the eight Star Wars movies with the IMDB ranking for each of the six movies.
+* Compares the adjusted gross income of each of the eight Star Wars movies with the IMDB rating for each of the eight movies.
 * Uses an appropriate chart type for comparison of two variables.
 * Uses THREE COLORS, that work with the rest of the data visualizations on the page and the page itself. The three elements for the "original trilogy" (AWESOME) three movies should be one color, the "prequels" (TERRIBLE) movies should be another color and the "new generation" (EXCELLENT) a third color.
 * Includes the name of each movie as a data label.
