@@ -1,4 +1,4 @@
-## Study guide for JOUR352/652 In-Class Mid-Term Exam
+k## Study guide for JOUR352/652 In-Class Mid-Term Exam
 
 If you want to do well on this in-class exam, please commit the following fundamentals to memory.
 

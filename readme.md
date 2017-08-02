@@ -197,13 +197,13 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 
 4.1 In-Class Portion of Mid-Term. Workshop: Take-home mid-term. Homework: Work on take-home portion of mid-term.  
 
-4.2 In-Class workshop - work on take-home portion of mid-term. At end of class: take-home mid-term due. Homework: jQuery CodeAcademy tutorial.    
+4.2 In-Class Portion of Mid-Term. Workshop: Take-home mid-term. Homework: Work on take-home portion of mid-term.  
 
-4.3 Introduction to programming for interaction design. In-Class Assignment: using jQuery to turn on and off an html element with a button click. Homework: finish jQuery CodeAcademy tutorial.
+4.3 In-Class workshop - work on take-home portion of mid-term. At end of class: take-home mid-term due. Homework: jQuery CodeAcademy tutorial.    
 
-4.4 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework:
+4.4 Introduction to programming for interaction design. In-Class Assignment: using jQuery to turn on and off an html element with a button click. Homework: finish jQuery CodeAcademy tutorial.
 
-4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to add further develop site.  Homework: Work on developing detailed list of interactives to be built for final project.
+4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework: Work on developing detailed list of interactives to be built for final project.
 
 ### WEEK FIVE
 5.1 In-class assignment: Meet with instructor one-on-one to discuss project interactives to be built. Homework: Finalize list of interactives to be built.  
