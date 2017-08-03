@@ -203,10 +203,10 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 
 4.4 Introduction to programming for interaction design. In-Class Assignment: using jQuery to turn on and off an html element with a button click. Homework: finish jQuery CodeAcademy tutorial.
 
-4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework: Work on developing detailed list of interactives to be built for final project.
+4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework: Work on developing detailed list of specific points you want to make with the data you've gathered.
 
 ### WEEK FIVE
-5.1 In-class assignment: Meet with instructor one-on-one to discuss project interactives to be built. Homework: Finalize list of interactives to be built.  
+5.1 In-class assignment: Meet with instructor one-on-one to discuss specific points you want to make with data you've analyzed. Homework: Finalize list of interactives to be built.  
 
 5.2 Due at beginning of class: full list of interactives to be built. In-class assignment: Lab to work on final project, get final sign off from instructor for interactives. Homework: Work on final project
 
