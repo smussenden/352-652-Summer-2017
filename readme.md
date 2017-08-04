@@ -206,23 +206,23 @@ Review of concepts in CodeAcademy Section 7, Section 8 and Section 9.
 4.5 Introduction to programming for interaction design. In-Class Assignment: using jQuery to change data in a chart. Homework: Work on developing detailed list of specific points you want to make with the data you've gathered.
 
 ### WEEK FIVE
-5.1 In-class assignment: Meet with instructor one-on-one to discuss specific points you want to make with data you've analyzed. Homework: Finalize list of interactives to be built.  
+5.1 Due at start of class: two-page memo on status of final project. In-class assignment: Meet with instructor one-on-one to discuss final project. Homework: Work on final project memo.  
 
-5.2 Due at beginning of class: full list of interactives to be built. In-class assignment: Lab to work on final project, get final sign off from instructor for interactives. Homework: Work on final project
+5.2 In-class assignment: Lab to work on final project. Homework: Work on final project.
 
-5.3 Workshop: work on final project. In-class assignment: show up to class and work on final project. Homework: Work on final project.  
+5.3 Due at start of class: Excel file with completed data analysis and memo on project status. In-class assignment: Work on final project. Homework: Work on final project.  
 
-5.4 Due at start of class: draft of all completed interactive elements. Workshop: work on final project. In-class assignment: show up to class and work on final project.  Homework: Work on final project.
+5.4 In-class assignment: work on final project.  Homework: Work on final project.
 
-5.5 Workshop: wireframing final site. In-class assignment: show up to class and work on final project.  Homework: transform approved wireframes into draft site.
+5.5 Due at start of class: At least two interactive elements completed, put on to HTML page. In-class assignment: work on final project. Homework: Work on final project.
 
 ### WEEK SIX
-6.1 Workshop: work on final project. In-class assignment: show up to class and work on final project.  
+6.1 Due at start of class: All interactive elements completed, put on to HTML page. In-class assignment: work on final project.  Homework: Work on final project.
 
-6.2 Due at END of class: Rough draft of site containing interactive elements. Workshop: work on final project. In-class assignment: show up to class and work on final project. Homework: peer Review and identify problems with other sites due by 8 p.m. Begin to incorporate comments from peers into draft site.  
+6.2  In-class assignment: work on final project.  Homework: Work on final project.
 
-6.3 Workshop: Incorporate peer review comments, make final changes, test in multiple browsers testing. In-class assignment: show up to class and work on final project. Final draft of site due at end of class. Homework: begin to incorporate instructor feedback on final draft.  
+6.3 Due at start of class: Completed six-page site package (about, resume, portfolio, story-project, Germany World Cup, movies) finished and uploaded to your GitHub pages site. In-class assignment: peer-review of classmate's site. Homework: incorporate peer comments into site.
 
-6.4 Workshop: Incorporate instructor feedback. In-class assignment: show up to class and work on final project. Homework: finish final project.
+6.4 Due at start of class: Completed project, ready for instructor revision notes, posted to GitHub.  In-class assignment: review site with instructor. Homework: work on final project, incorporating instructor feedback.
 
-6.5 Due at END of class: Final project.  
+6.5 Final project due at start of class.  
