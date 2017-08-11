@@ -105,13 +105,8 @@ Students with a specific disability (permanent or temporary, physical or learnin
   * Independent, Closed-Book In-Class Portion (5 percent).
   * Collaborative, Open-Book, Out-of-Class Portion (15 percent).
 * Final Project (Total of 40 percent)
-  * Outline of exploration for proposed project. (3 percent)
-  * Detailed description of interactive elements. (3 percent)
-  * Completed near-final draft of interactive elements and text. (3 percent)
-  * Rough draft of site with completed interactive elements and text (3 percent)
-  * Completed peer review of classmate site (3 percent)
-  * Final draft of site to instructor (3 percent)
-  * Final Project (22 percent)
+  * 7 Interim Steps Checking Progress (20 percent)
+  * Final Project (20 percent)
 
 ### Grade breakdown details
 
